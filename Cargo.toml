@@ -18,7 +18,7 @@ include = [
 
 [package]
 name = "trycmd-indygreg-fork"
-version = "0.14.19"
+version = "0.14.20"
 description = "Snapshot testing for a herd of CLI tests"
 authors = ["Ed Page <eopage@gmail.com>"]
 repository = "https://github.com/assert-rs/trycmd.git"
