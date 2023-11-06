@@ -127,7 +127,7 @@ impl TestCases {
     /// ```rust,no_run
     /// #[test]
     /// fn cli_tests() {
-    ///     trycmd::TestCases::new()
+    ///     trycmd_indygreg_fork::TestCases::new()
     ///         .case("tests/cmd/*.trycmd")
     ///         .insert_var("[VAR]", "value");
     /// }

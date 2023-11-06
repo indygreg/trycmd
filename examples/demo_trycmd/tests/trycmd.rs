@@ -1,6 +1,6 @@
 #[test]
 fn trycmd() {
-    trycmd::TestCases::new()
+    trycmd_indygreg_fork::TestCases::new()
         .case("README.md")
         .insert_var("[REPLACEMENT]", "runtime-value")
         .unwrap();

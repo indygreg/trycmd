@@ -14,8 +14,8 @@ pub use snapbox::cmd::cargo_bin;
 /// ```rust,no_run
 /// #[test]
 /// fn cli_tests() {
-///     trycmd::TestCases::new()
-///         .register_bin("example-fixture", trycmd::cargo::compile_example("example-fixture", []))
+///     trycmd_indygreg_fork::TestCases::new()
+///         .register_bin("example-fixture", trycmd_indygreg_fork::cargo::compile_example("example-fixture", []))
 ///         .case("examples/cmd/*.trycmd");
 /// }
 /// ```
@@ -38,8 +38,8 @@ pub fn compile_example<'a>(
 /// ```rust,no_run
 /// #[test]
 /// fn cli_tests() {
-///     trycmd::TestCases::new()
-///         .register_bins(trycmd::cargo::compile_examples([]).unwrap())
+///     trycmd_indygreg_fork::TestCases::new()
+///         .register_bins(trycmd_indygreg_fork::cargo::compile_examples([]).unwrap())
 ///         .case("examples/cmd/*.trycmd");
 /// }
 /// ```

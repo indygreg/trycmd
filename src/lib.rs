@@ -25,7 +25,7 @@
 //! ```rust,no_run
 //! #[test]
 //! fn cli_tests() {
-//!     trycmd::TestCases::new()
+//!     trycmd_indygreg_fork::TestCases::new()
 //!         .case("tests/cmd/*.toml")
 //!         .case("README.md");
 //! }
@@ -39,7 +39,7 @@
 //! ```rust,no_run
 //! #[test]
 //! fn cli_tests() {
-//!     trycmd::TestCases::new()
+//!     trycmd_indygreg_fork::TestCases::new()
 //!         .case("tests/cmd/*.toml")
 //!         .case("README.md")
 //!         // See Issue #314

@@ -17,7 +17,7 @@ include = [
 ]
 
 [package]
-name = "trycmd"
+name = "trycmd-indygreg-fork"
 version = "0.14.19"
 description = "Snapshot testing for a herd of CLI tests"
 authors = ["Ed Page <eopage@gmail.com>"]

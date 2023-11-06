@@ -1,4 +1,12 @@
-# trycmd
+# trycmd-indygreg-fork
+
+This is a soft fork of https://github.com/assert-rs/trycmd that
+was created after the upstream maintainers didn't accept some PRs.
+
+The main differentiating feature is the ability to create alternative
+file loaders. The hope is that one day a new trycmd like frontend/runner
+will be created and this fork can be retired. Or upstream can be convinced
+that the dynamic file loading patches merit being included in trycmd.
 
 > Treat your tests like cattle, instead of [pets](https://docs.rs/snapbox)
 

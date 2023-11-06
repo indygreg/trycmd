@@ -1,6 +1,6 @@
 #[test]
 fn cli_tests() {
-    let t = trycmd::TestCases::new();
+    let t = trycmd_indygreg_fork::TestCases::new();
     t.case("tests/cmd/*.trycmd").case("tests/cmd/*.toml");
     #[cfg(not(feature = "schema"))]
     {
@@ -21,5 +21,5 @@ fn cli_tests() {
         t.skip("tests/cmd/timeout.toml");
     }
     t.extend_vars([("[EXAMPLE]", "example")]).unwrap();
-    t.register_bin("ignored-bin", trycmd::schema::Bin::Ignore);
+    t.register_bin("ignored-bin", trycmd_indygreg_fork::schema::Bin::Ignore);
 }
